@@ -1,0 +1,218 @@
+{
+  "title": "Registro della posta in arrivo",
+  "description": "Dashboard per registrare, filtrare e smistare documenti in entrata. Tutti i nomi e i dati sono inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "riepilogo",
+      "title": "Riepilogo",
+      "description": "Panoramica dei documenti in attesa di assegnazione e dei flussi per canale.",
+      "metrics": [
+        {
+          "label": "Da smistare",
+          "value": "8"
+        },
+        {
+          "label": "Registrati oggi",
+          "value": "5"
+        },
+        {
+          "label": "Canale PEC",
+          "value": "4"
+        },
+        {
+          "label": "Canale sportello",
+          "value": "2"
+        },
+        {
+          "label": "Canale posta",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Numero protocollo",
+        "Data",
+        "Mittente",
+        "Oggetto",
+        "Canale",
+        "Ufficio di assegnazione"
+      ],
+      "rows": [
+        [
+          "PR-2025-0041",
+          "12/03/2025",
+          "Lumo Servizi Civici",
+          "Richiesta di informazioni",
+          "PEC",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0040",
+          "12/03/2025",
+          "Vela Forniture",
+          "Trasmissione documenti",
+          "Sportello",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0039",
+          "12/03/2025",
+          "Nubi Cultura",
+          "Comunicazione generica",
+          "Posta",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0038",
+          "11/03/2025",
+          "Talia Servizi",
+          "Richiesta di chiarimenti",
+          "PEC",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0037",
+          "11/03/2025",
+          "Riva Materiali",
+          "Invio di documentazione",
+          "Posta",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0036",
+          "11/03/2025",
+          "Miro Progetti",
+          "Comunicazione generica",
+          "PEC",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0035",
+          "10/03/2025",
+          "Soli Servizi Tecnici",
+          "Richiesta di informazioni",
+          "Sportello",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0034",
+          "10/03/2025",
+          "Lira Reti",
+          "Trasmissione documenti",
+          "PEC",
+          "Da assegnare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro",
+      "title": "Registro in entrata",
+      "description": "Elenco filtrabile dei documenti acquisiti. Filtra per ufficio e canale o cerca per protocollo, mittente e oggetto.",
+      "metrics": [
+        {
+          "label": "Documenti in elenco",
+          "value": "8"
+        },
+        {
+          "label": "Da assegnare",
+          "value": "8"
+        }
+      ],
+      "columns": [
+        "Numero protocollo",
+        "Data",
+        "Mittente",
+        "Oggetto",
+        "Canale",
+        "Ufficio di assegnazione"
+      ],
+      "rows": [
+        [
+          "PR-2025-0041",
+          "12/03/2025",
+          "Lumo Servizi Civici",
+          "Richiesta di informazioni",
+          "PEC",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0040",
+          "12/03/2025",
+          "Vela Forniture",
+          "Trasmissione documenti",
+          "Sportello",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0039",
+          "12/03/2025",
+          "Nubi Cultura",
+          "Comunicazione generica",
+          "Posta",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0038",
+          "11/03/2025",
+          "Talia Servizi",
+          "Richiesta di chiarimenti",
+          "PEC",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0037",
+          "11/03/2025",
+          "Riva Materiali",
+          "Invio di documentazione",
+          "Posta",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0036",
+          "11/03/2025",
+          "Miro Progetti",
+          "Comunicazione generica",
+          "PEC",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0035",
+          "10/03/2025",
+          "Soli Servizi Tecnici",
+          "Richiesta di informazioni",
+          "Sportello",
+          "Da assegnare"
+        ],
+        [
+          "PR-2025-0034",
+          "10/03/2025",
+          "Lira Reti",
+          "Trasmissione documenti",
+          "PEC",
+          "Da assegnare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-registrazione",
+      "title": "Nuova registrazione",
+      "description": "Registra un documento in entrata. Il numero di protocollo viene assegnato alla conferma; seleziona l'ufficio quando il documento è pronto per lo smistamento.",
+      "metrics": [],
+      "columns": [
+        "Mittente",
+        "Oggetto",
+        "Canale",
+        "Ufficio di assegnazione"
+      ],
+      "rows": [],
+      "form": [
+        "Mittente",
+        "Oggetto",
+        "Canale",
+        "Ufficio di assegnazione"
+      ]
+    }
+  ]
+}
